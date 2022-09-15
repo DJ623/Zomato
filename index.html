@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Images/zomato-icon.jpeg" type="image/x-icon">
+    <title>Zomato</title>
+</head>
+<body>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{   
+            margin : 0;
+
+        }
+
+        #nav1{
+            position:fixed;
+            top:0;
+            left:0;
+            width:250px;
+            height:100%;
+        
+        }
+
+        main{
+            margin-left: 250px;
+            margin-top:50px;
+            padding : 10px;
+            
+        }
+
+        .zoom {
+    
+         transition: transform .2s;
+
+         }
+    .zoom  {
+
+        transition: transform .2s;
+
+            }
+  
+        .zoom:hover {
+    
+            transform: scale(1.02); 
+        }
+
+        
+    </style>
+
+
+
+<nav id="nav1">
+
+    <div style="width: 250px;height:fit-content;text-align: center;">
+        <img src="./Images/Zomato_logo.jpeg" alt="Zomato Logo" style="width: 170px">
+    </div>
+    <div style="width: 254px;height:180vh;float:left;">
+        <div style="border:2px solid black;height: 650px;width: 250px;text-align: center;border-radius: 20px;margin-top:2px;margin-left: 4px;">
+
+        <div>
+            <h4 >Filter By Price</h4>
+            <hr>
+
+        <div style="text-align: left
+        ;margin-left:22%;padding-top: 5%;">
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+            >
+            <label for="scales">Rs 20 - 30 </label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+             >
+            <label for="scales">Rs 50 - 100 </label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+            >
+            <label for="scales">Rs 110 - 200 </label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                >
+                 <label for="scales">Rs 220 - 500 </label>
+            </div>
+
+        </div>
+            <hr>
+
+         </div>
+
+         <div>
+
+            <h4 >Filter By Menu</h4>
+            <hr>
+        <div style="text-align: left
+        ;margin-left:22%;padding-top:5%;">
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                >
+                 <label for="scales">Pizza</label>
+            </div>
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                >
+                 <label for="scales">Burger</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                >
+                 <label for="scales">Paneer</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                >
+                 <label for="scales">Starter's</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                >
+                 <label for="scales">Cold Drinks</label>
+            </div>
+
+         </div>
+         <hr>
+        </div>
+
+         <div>
+
+            <h4 >Filter By Location</h4>
+            <hr>
+        <div  style="text-align: left
+            ;margin-left:22%;padding-top:5%;">
+
+           
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                >
+                 <label for="scales">Anand Nagar</label>
+            </div>
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                >
+                 <label for="scales">Gandhi Nagar</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                >
+                 <label for="scales">Good Luck Chowk</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                >
+                 <label for="scales">Karve Nagar</label>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+<main>
+
+
+    
+
+    <div style="margin-top: 2%;">
+       <div class="zoom" style="margin: 2%;">
+        <div style="background-color:white;width:325px;height: 435px;float:left;margin:2%;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);border-radius: 17px;">  
+            <div>
+                 <img src="./images/missal_pav.jpeg" alt="London" width="100%" height="250px" style="border-top-left-radius: 17px;border-top-right-radius: 17px;">
+    
+            </div>
+           
+            
+            <div style="margin-top: 2%;">
+              
+                
+                <div>
+                    <span style="font-size: 24px;color:black; margin-left: 2%;"><b>Mastani Misal</b></span>
+                </div>
+                
+                <hr> 
+    
+                <div>
+                    <span style="font-size: 24px;color:green; margin-left: 2%;">Special Missal</span>
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: 21px;color:red; margin-left: 2%;">MRP : <del> Rs 80</del></span>
+                </div>
+    
+                
+                
+                
+                <div style="float: right;">
+                    <span style="font-size: 21px;color:red;padding-right: 5px;">Only at: Rs 75</span>
+    
+                    
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: x-small;color:grey; margin-left: 2%;"><b>Ratings 4.5</b></span>
+                </div>
+               
+                
+    
+                <div class="zoom" style="text-align: right;margin-top: 2px;">
+                    <button type="button" style="background-color: teal;color: white;border: 1px solid black;border-radius: 12px;margin-right: 5px;">Order Now</button>
+                </div>
+    
+            </div>
+    
+                
+                
+            
+            
+        </div>
+    
+       
+    
+    
+    </div>
+    
+    <div class="zoom" style="margin: 2%;">
+        <div style="background-color:white;width:325px;height: 435px;float:left;margin:2%;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);border-radius: 17px;">  
+            <div>
+                 <img src="./images/pav_bhaji.jpeg" alt="London" width="100%" height="250px" style="border-top-left-radius: 17px;border-top-right-radius: 17px;">
+    
+            </div>
+           
+            
+            <div style="margin-top: 2%;">
+              
+                
+                <div>
+                    <span style="font-size: 24px;color:black; margin-left: 2%;"><b>Relax Pure Veg</b></span>
+                </div>
+                
+                <hr> 
+    
+                <div>
+                    <span style="font-size: 24px;color:green; margin-left: 2%;">Pav Bhaji</span>
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: 21px;color:red; margin-left: 2%;">MRP : <del> Rs 100</del></span>
+                </div>
+    
+                
+                
+                
+                <div style="float: right;">
+                    <span style="font-size: 21px;color:red;padding-right: 5px;">Only at: Rs 80</span>
+    
+                    
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: x-small;color:grey; margin-left: 2%;"><b>Ratings 5.0</b></span>
+                </div>
+               
+                
+    
+                <div class="zoom" style="text-align: right;margin-top: 2px;">
+                    <button type="button" style="background-color: teal;color: white;border: 1px solid black;border-radius: 12px;margin-right: 5px;">Order Now</button>
+                </div>
+    
+            </div>
+    
+                
+                
+            
+            
+        </div>
+    
+       
+    
+    
+    </div>
+    
+    
+    <div class="zoom" style="margin: 2%;">
+        <div style="background-color:white;width:325px;height: 435px;float:left;margin:2%;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);border-radius: 17px;">  
+            <div>
+                 <img src="./images/burger.jpeg" alt="London" width="100%" height="250px" style="border-top-left-radius: 17px;border-top-right-radius: 17px;">
+    
+            </div>
+           
+            
+            <div style="margin-top: 2%;">
+              
+                
+                <div>
+                    <span style="font-size: 24px;color:black; margin-left: 2%;"><b>Denny's Burger</b></span>
+                </div>
+                
+                <hr> 
+    
+                <div>
+                    <span style="font-size: 24px;color:green; margin-left: 2%;">Veg Burger</span>
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: 21px;color:red; margin-left: 2%;">MRP : <del> Rs 105</del></span>
+                </div>
+    
+                
+                
+                
+                <div style="float: right;">
+                    <span style="font-size: 21px;color:red;padding-right: 5px;">Only at: Rs 80</span>
+    
+                    
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: x-small;color:grey; margin-left: 2%;"><b>Ratings 4.0</b></span>
+                </div>
+               
+                
+    
+                <div class="zoom" style="text-align: right;margin-top: 2px;">
+                    <button type="button" style="background-color: teal;color: white;border: 1px solid black;border-radius: 12px;margin-right: 5px;">Order Now</button>
+                </div>
+    
+            </div>
+    
+                
+                
+            
+            
+        </div>
+    
+       
+    
+    
+    </div>
+    
+    <div class="zoom" style="margin: 2%;">
+        <div style="background-color:white;width:325px;height: 435px;float:left;margin:2%;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);border-radius: 17px;">  
+            <div>
+                 <img src="./images/chole_bhature.jpeg" alt="London" width="100%" height="250px" style="border-top-left-radius: 17px;border-top-right-radius: 17px;">
+    
+            </div>
+           
+            
+            <div style="margin-top: 2%;">
+              
+                
+                <div>
+                    <span style="font-size: 24px;color:black; margin-left: 2%;"><b>Chatori Dilli</b></span>
+                </div>
+                
+                <hr> 
+    
+                <div>
+                    <span style="font-size: 24px;color:green; margin-left: 2%;">Chole Bhature</span>
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: 21px;color:red; margin-left: 2%;">MRP : <del> Rs 150</del></span>
+                </div>
+    
+                
+                
+                
+                <div style="float: right;">
+                    <span style="font-size: 21px;color:red;padding-right: 5px;">Only at: Rs 110</span>
+    
+                    
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: x-small;color:grey; margin-left: 2%;"><b>Ratings 3.5</b></span>
+                </div>
+               
+                
+    
+                <div class="zoom" style="text-align: right;margin-top: 2px;">
+                    <button type="button" style="background-color: teal;color: white;border: 1px solid black;border-radius: 12px;margin-right: 5px;">Order Now</button>
+                </div>
+    
+            </div>
+    
+                
+                
+            
+            
+        </div>
+    
+       
+    
+    
+    </div>
+    
+    <div class="zoom" style="margin: 2%;">
+        <div style="background-color:white;width:325px;height: 435px;float:left;margin:2%;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);border-radius: 17px;">  
+            <div>
+                 <img src="./images/veg_biryani.jpeg" alt="London" width="100%" height="250px" style="border-top-left-radius: 17px;border-top-right-radius: 17px;">
+    
+            </div>
+           
+            
+            <div style="margin-top: 2%;">
+              
+                
+                <div>
+                    <span style="font-size: 24px;color:black; margin-left: 2%;"><b>Hotel Prasad</b></span>
+                </div>
+                
+                <hr> 
+    
+                <div>
+                    <span style="font-size: 24px;color:green; margin-left: 2%;">Veg Biryani</span>
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: 21px;color:red; margin-left: 2%;">MRP : <del> Rs 100</del></span>
+                </div>
+    
+                
+                
+                
+                <div style="float: right;">
+                    <span style="font-size: 21px;color:red;padding-right: 5px;">Only at: Rs 85</span>
+    
+                    
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: x-small;color:grey; margin-left: 2%;"><b>Ratings 4.2</b></span>
+                </div>
+               
+                
+    
+                <div class="zoom" style="text-align: right;margin-top: 2px;">
+                    <button type="button" style="background-color: teal;color: white;border: 1px solid black;border-radius: 12px;margin-right: 5px;">Order Now</button>
+                </div>
+    
+            </div>
+    
+                
+                
+            
+            
+        </div>
+    
+       
+    
+    
+    </div>
+    
+    
+    <div class="zoom" style="margin: 2%;">
+        <div style="background-color:white;width:325px;height: 435px;float:left;margin:2%;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);border-radius: 17px;">  
+            <div>
+                 <img src="./images/cold_coffee.jpeg" alt="London" width="100%" height="250px" style="border-top-left-radius: 17px;border-top-right-radius: 17px;">
+    
+            </div>
+           
+            
+            <div style="margin-top: 2%;">
+              
+                
+                <div>
+                    <span style="font-size: 24px;color:black; margin-left: 2%;"><b>Hotel Durga</b></span>
+                </div>
+                
+                <hr> 
+    
+                <div>
+                    <span style="font-size: 24px;color:green; margin-left: 2%;">Cold Coffee</span>
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: 21px;color:red; margin-left: 2%;">MRP : <del> Rs 60</del></span>
+                </div>
+    
+                
+                
+                
+                <div style="float: right;">
+                    <span style="font-size: 21px;color:red;padding-right: 5px;">Only at: Rs 40</span>
+    
+                    
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: x-small;color:grey; margin-left: 2%;"><b>Ratings 5.0</b></span>
+                </div>
+               
+                
+    
+                <div class="zoom" style="text-align: right;margin-top: 2px;">
+                    <button type="button" style="background-color: teal;color: white;border: 1px solid black;border-radius: 12px;margin-right: 5px;">Order Now</button>
+                </div>
+    
+            </div>
+    
+                
+                
+            
+            
+        </div>
+    
+       
+    
+    
+    </div>
+    
+    
+    <div class="zoom" style="margin: 2%;">
+        <div style="background-color:white;width:325px;height: 435px;float:left;margin:2%;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);border-radius: 17px;">  
+            <div>
+                 <img src="./images/pizza.jpeg" alt="London" width="100%" height="250px" style="border-top-left-radius: 17px;border-top-right-radius: 17px;">
+    
+            </div>
+           
+            
+            <div style="margin-top: 2%;">
+              
+                
+                <div>
+                    <span style="font-size: 24px;color:black; margin-left: 2%;"><b>Dominos</b></span>
+                </div>
+                
+                <hr> 
+    
+                <div>
+                    <span style="font-size: 24px;color:green; margin-left: 2%;">Margherita Pizza</span>
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: 21px;color:red; margin-left: 2%;">MRP : <del> Rs 350</del></span>
+                </div>
+    
+                
+                
+                
+                <div style="float: right;">
+                    <span style="font-size: 21px;color:red;padding-right: 5px;">Only at: Rs 225</span>
+    
+                    
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: x-small;color:grey; margin-left: 2%;"><b>Ratings 4.6</b></span>
+                </div>
+               
+                
+    
+                <div class="zoom" style="text-align: right;margin-top: 2px;">
+                    <button type="button" style="background-color: teal;color: white;border: 1px solid black;border-radius: 12px;margin-right: 5px;">Order Now</button>
+                </div>
+    
+            </div>
+    
+                
+                
+            
+            
+        </div>
+    
+       
+    
+    
+    </div>
+    
+    <div class="zoom" style="margin: 2%;">
+        <div style="background-color:white;width:325px;height: 435px;float:left;margin:2%;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);border-radius: 17px;">  
+            <div>
+                 <img src="./images/veg_manchurian.jpeg" alt="London" width="100%" height="250px" style="border-top-left-radius: 17px;border-top-right-radius: 17px;">
+    
+            </div>
+           
+            
+            <div style="margin-top: 2%;">
+              
+                
+                <div>
+                    <span style="font-size: 24px;color:black; margin-left: 2%;"><b>Hotel Chafa</b></span>
+                </div>
+                
+                <hr> 
+    
+                <div>
+                    <span style="font-size: 24px;color:green; margin-left: 2%;">Veg Manchurian</span>
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: 21px;color:red; margin-left: 2%;">MRP : <del> Rs 140</del></span>
+                </div>
+    
+                
+                
+                
+                <div style="float: right;">
+                    <span style="font-size: 21px;color:red;padding-right: 5px;">Only at: Rs 90</span>
+    
+                    
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: x-small;color:grey; margin-left: 2%;"><b>Ratings 4.7</b></span>
+                </div>
+               
+                
+    
+                <div class="zoom" style="text-align: right;margin-top: 2px;">
+                    <button type="button" style="background-color: teal;color: white;border: 1px solid black;border-radius: 12px;margin-right: 5px;">Order Now</button>
+                </div>
+    
+            </div>
+    
+                
+                
+            
+            
+        </div>
+    
+       
+    
+    
+    </div>
+    
+    
+    <div class="zoom" style="margin: 2%;">
+        <div style="background-color:white;width:325px;height: 435px;float:left;margin:2%;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);border-radius: 17px;">  
+            <div>
+                 <img src="./images/butter-panner-masala.jpeg" alt="London" width="100%" height="250px" style="border-top-left-radius: 17px;border-top-right-radius: 17px;">
+    
+            </div>
+           
+            
+            <div style="margin-top: 2%;">
+              
+                
+                <div>
+                    <span style="font-size: 24px;color:black; margin-left: 2%;"><b>Hotel Sudhir</b></span>
+                </div>
+                
+                <hr> 
+    
+                <div>
+                    <span style="font-size: 24px;color:green; margin-left: 2%;">Paneer Butter Masala</span>
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: 21px;color:red; margin-left: 2%;">MRP : <del> Rs 160</del></span>
+                </div>
+    
+                
+                
+                
+                <div style="float: right;">
+                    <span style="font-size: 21px;color:red;padding-right: 5px;">Only at: Rs 120</span>
+    
+                    
+                </div>
+    
+                <div style="margin-top: 2%;">
+                    <span style="font-size: x-small;color:grey; margin-left: 2%;"><b>Ratings 4.5</b></span>
+                </div>
+               
+                
+    
+                <div class="zoom" style="text-align: right;margin-top: 2px;">
+                    <button type="button" style="background-color: teal;color: white;border: 1px solid black;border-radius: 12px;margin-right: 5px;">Order Now</button>
+                </div>
+    
+            </div>
+    
+                
+                
+            
+            
+        </div>
+    
+       
+    
+    
+    </div>
+    
+    
+    
+
+</main>
+
+
+
+
+    
+</body>
+</html>
